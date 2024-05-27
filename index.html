@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Customers Churn Prediction</title>
+</head>
+<body>
+    <h1>Bank Customers Churn Prediction</h1>
+    <form action="/predict" method="post">
+        <!-- Input fields for user to enter data -->
+        <!-- Make sure the input names match the ones used in the Flask app -->
+        <label for="CreditScore">Credit Score:</label>
+        <input type="number" name="CreditScore" required><br>
+
+        <!-- Add other input fields similarly -->
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
